@@ -27,11 +27,13 @@ class library:
         print("You successfully added a book!!!\nThank you for donet us a book! It will help other to get free book for devolop there knowledge.")
     def return_book(self):
         inp2=input("pls input your book that you want to return: ")
-        import datetime
-        def gettime():
+
+        def getdate():
+            import datetime
             return datetime.datetime.now()
+        print(getdate())
         f=open("returned book.txt", "a")
-        f.write(inp2 + (str([gettime()])))
+        f.write(inp2 + (str(getdate())))
         f.close()
         print("Thank you for returning your book.")
 Library=library()
