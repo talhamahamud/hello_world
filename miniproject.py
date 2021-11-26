@@ -1,6 +1,6 @@
 import random
 nam=input("pls input Your username: ")
-oo=["Talha", "Mahamud", "Rashid", "Rishan", "Kayes"]
+oo=["Talha", "Mahamud", "Rashid", "Rishan", "Kayes", "Zawad"]
 pp=random.choice(list(oo))
 Library_Book_List=["One day morning", "A life of a girl", "A poor farmer"]
 class library:
